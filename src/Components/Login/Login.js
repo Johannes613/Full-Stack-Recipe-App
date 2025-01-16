@@ -17,7 +17,7 @@ const Login = () => {
   const handleSignUp = async(e)=>{
     e.preventDefault();
     try {
-      const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/users/signup',{
+      const response = await fetch('https://recipe-backend-2-cnob.onrender.com/api/users/signup',{
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const Login = () => {
   const handleSignIn = async(e)=>{
     e.preventDefault();
     try {
-        const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/users/login',{
+        const response = await fetch('https://recipe-backend-2-cnob.onrender.com/api/users/login',{
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ const Login = () => {
 
   }
   const handleGoogle = ()=>{
-    fetch('https://recipe-backend-1-h6ge.onrender.com/auth/google', {
+    fetch('https://recipe-backend-2-cnob.onrender.com/auth/google', {
       method: 'GET',
       credentials: 'include', // Include cookies/auth headers
     })
@@ -86,7 +86,7 @@ const Login = () => {
             <div className="login-cont">
                 <h2 className='login-head'> {accState} to Tasty Recipes</h2>
                 <button   className='google-auth'><img src={google} alt="" /> {accState} with Google</button>
-                <a href="https://recipe-backend-1-h6ge.onrender.com/auth/google">google</a>
+                <a href="https://recipe-backend-2-cnob.onrender.com/auth/google">google</a>
                 <form>
                 {accState === 'Sign-up'?<div className="info-input">
                         <p>Name</p>
