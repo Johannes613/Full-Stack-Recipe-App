@@ -1,0 +1,58 @@
+div.Testi{
+    /* background: url(../../assets/louis-hansel-cH5IPjaAYyo-unsplash.jpg); */
+    background-attachment: fixed;
+}
+img.bg-email{
+    height: 85vh;
+    object-fit: cover;
+}
+input.email-sub-input{
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    width: 23vw;
+    margin: none;
+    color: rgb(245, 86, 86);
+}
+
+div.email-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+
+}
+div.cont-form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0;
+
+}
+form.email-sub-form button{
+    padding: 16px 30px;
+    border: none;
+    background-color: rgb(245, 86, 86);
+    color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 550;
+}
+#disp-col{
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    padding-bottom: 15vh;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#disp-col p{
+    font-size: 18px;
+}

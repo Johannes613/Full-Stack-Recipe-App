@@ -1,0 +1,65 @@
+div.articles-list{
+    background-color: white;
+    
+}
+#article-cont{
+    gap: 10px;
+    min-height: 60vh;
+    justify-content: start;
+    background-color: rgb(250, 244, 234);
+    transition: all 0.4s ease;
+}
+#article-cont:hover{
+    background-color: rgb(245, 86, 86);
+}
+#article-cont h2{
+    font-size: 24px;
+    font-weight: 530;
+    color: rgb(42, 42, 42);
+    margin-bottom: 10px;
+}
+#article-cont:hover h2{
+    color: white;
+}
+#article-cont:hover p{
+    color: white;
+}
+#article-cont p{
+    color: gray;
+    font-size: 15px;
+}
+
+#article-cont button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+
+}
+#article-cont div{
+    padding: 10px 22px;
+    display: block;
+    text-align: start;
+}
+#see-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 155px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+.right-arrow{
+    font-size: 5px;
+    display: none;
+}

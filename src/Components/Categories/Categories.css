@@ -1,0 +1,72 @@
+div.categories{
+    min-height: 100vh;
+    padding: 0 7vw 3vw 7vw;
+    background-color: rgb(239, 238, 238);
+
+
+}
+div.categories hr{
+    margin-bottom: 30px;
+    height: 2px;
+    color: gray;
+}
+div.cat-container{
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+div.cat-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+}
+div.cat-container img:hover{
+    transform: scale(1.05);
+}
+
+h2#cat-title{
+    display: block;
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+    padding: 3px;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    z-index: 10;
+    font-size: 1.1rem;
+    font-weight: 550;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease-in-out;
+    
+}
+div.each-cat{
+    width: 15vw;
+    border: 5px solid white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+div.favourites{
+    padding: 250px 4vw;
+    justify-content: center;
+    background-color: rgb(239, 238, 238);
+
+}
+div.each-cat:hover h2#cat-title{
+    background-color: rgb(245, 86, 86);
+    color: white;
+    bottom: 1px;
+} 

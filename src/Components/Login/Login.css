@@ -1,0 +1,107 @@
+div.login-page{
+    min-height: 90vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+div.login-cont{
+    width: 25vw;
+    max-width: 380px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+button.google-auth{
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 550;
+    margin-bottom: 3px;
+}
+button.google-auth img{
+    width: 16px;
+}
+.login-head{
+    font-size: 20px;
+    font-weight: 510;
+    margin-top: 200px;
+}
+div.info-input{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+div.info-input p{
+    text-align: start;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+div.info-input input{
+    border:1px solid rgb(210, 210, 210);
+    padding: 10px 15px;
+    width: 100%;
+    margin: 0;
+    border-radius: 7px;
+    
+
+}
+div.agreement{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+div.agreement input {
+    text-align: start;
+    margin: 0;
+    margin-top: 6px;
+    padding: 0;
+    width: 40px;
+   
+}
+div.agreement label, div.check-out p,.sub-btn{
+    text-align: start;
+    padding-left: 10px;
+    flex: none;
+    width: 100%;
+
+}
+div.check-out{
+    margin-top: 10px;
+}
+div.check-out span{
+    cursor: pointer;
+}
+div.check-out span:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.sub-btn{
+    padding: 10px 20px;
+    background-color: rgb(252, 83, 83);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    margin-top: 6px;
+    
+}
+.sub-btn:hover{
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.2);
+
+}
