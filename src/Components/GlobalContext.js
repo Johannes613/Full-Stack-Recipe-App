@@ -40,7 +40,7 @@ const GlobalState = ({ children }) => {
   const fetchList = async()=>{
     if(localStorage.getItem('token')){
       try {
-        const response = await fetch('http://localhost:3500/api/fav/list',{
+        const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/fav/list',{
           method:'POST',
           headers:{
             token:localStorage.getItem('token')
@@ -63,7 +63,7 @@ const GlobalState = ({ children }) => {
 
   const findItem = async(itemId)=>{
     try {
-      const response = await fetch('http://localhost:3500/api/fav/find',{
+      const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/fav/find',{
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -88,7 +88,7 @@ const GlobalState = ({ children }) => {
   
   const removeItem = async(itemId)=>{
     try {
-      const response = await fetch('http://localhost:3500/api/fav/remove',{
+      const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/fav/remove',{
         method: "DELETE",
         headers: {
             'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ const GlobalState = ({ children }) => {
 
   const handleFavourites = async(currentItem)=>{
     try {
-        const response = await fetch('http://localhost:3500/api/fav/add',{
+        const response = await fetch('https://recipe-backend-1-h6ge.onrender.com/api/fav/add',{
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

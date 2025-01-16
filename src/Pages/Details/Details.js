@@ -30,7 +30,7 @@ const Details = () => {
         const recipeData = await response.json();
         setRecipeDetailsData(recipeData);
       } catch (error) {
-        console.error("Error fetching recipe data:", error);
+        console.error("Error fetching recipe g data:", error);
       }
     }
     getRecipeData(id);
