@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { useContext, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import './Navbar.css'
 import { GlobalContext } from "../GlobalContext";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -23,6 +23,7 @@ const Navbar = ({showLogin, setShowLogin}) => {
     const {searchValue,setSearchValue,handleSubmit,accState,setAccState,token,setToken} = useContext(GlobalContext)
     const [showNav,setShovNav] = useState(false);
     const navUl = useRef(null)
+    
     
 
     const handleLogOut = ()=>{
@@ -69,14 +70,14 @@ const Navbar = ({showLogin, setShowLogin}) => {
                         <Link className="links" to = '/' >Home</Link>
                     </li>
                     <li>
-                        <Link className="links" to = '/recipes' >Recipes</Link>
+                        <Link  className="links" to = '/recipes' >Recipes</Link>
                     </li>
                     <li>
                         <Link className="links" to = '/recipe-item/:id' >Details</Link>
                     
                     </li>
                     <li>
-                        <Link className="links" to = '/favourites' >Favourites</Link>
+                        <Link  className="links" to = '/favourites' >Favourites</Link>
                     </li>
 
 

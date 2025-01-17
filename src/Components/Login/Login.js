@@ -86,7 +86,6 @@ const Login = () => {
             <div className="login-cont">
                 <h2 className='login-head'> {accState} to Tasty Recipes</h2>
                 <button   className='google-auth'><img src={google} alt="" /> {accState} with Google</button>
-                <a href="https://recipe-backend-2-cnob.onrender.com/auth/google">google</a>
                 <form>
                 {accState === 'Sign-up'?<div className="info-input">
                         <p>Name</p>

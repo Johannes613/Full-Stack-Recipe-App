@@ -6,7 +6,8 @@ div.login-page{
     margin-bottom: 70px;
 }
 div.login-cont{
-    width: 25vw;
+    width: 75vw;
+    max-width: 365px;
     max-width: 380px;
     padding: 0 10px;
     display: flex;
