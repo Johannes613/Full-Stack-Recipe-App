@@ -23,6 +23,7 @@ const SearchRecipe = () => {
             name="search"
             autoComplete="off"
             value={searchValue}
+            id="search-r"
             placeholder="Enter Items . . ."
             onChange={(e) => {
               setSearchValue(e.target.value);
@@ -30,7 +31,7 @@ const SearchRecipe = () => {
             }}
           />
         </form>
-        <button className="see-all">See All</button>
+        <button id="searc-sea" className="see-all">See All</button>
       </div>
     </div>
   );

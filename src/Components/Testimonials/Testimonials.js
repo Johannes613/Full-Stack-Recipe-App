@@ -41,7 +41,7 @@ const Testimonials = () => {
         </div>
 
         <div className="contain">
-          <FaAngleLeft className="mover right-mo" onClick={handleMoveLeft} />
+          <FaAngleLeft id="right-mo" className="mover right-mo" onClick={handleMoveLeft} />
           {testmonialList.map((eachTestimonial, index) => {
             return (
               <div
@@ -59,7 +59,7 @@ const Testimonials = () => {
               </div>
             );
           })}
-          <FaAngleRight className="mover left-mo" onClick={handleMoveRight} />
+          <FaAngleRight id="left-mo" className="mover left-mo" onClick={handleMoveRight} />
         </div>
 
         <div className="indicators">

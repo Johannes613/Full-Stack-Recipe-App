@@ -12,19 +12,23 @@
 }
 div.intro-head{
     background-color: white;
-    width: 37%;
+    width: 65%;
+    max-width: 520px;
     margin: 0 auto;
     position: absolute;
     top: 40vh;
-    left: 31%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 7;
-    height: 42vh;
+    height: 40vh;
+    min-height: 300px;
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px 20px ;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
 }
 div.intro-head h2{
     text-align: center;

@@ -52,6 +52,7 @@ div.show-image{
     gap: 10px;
     border-radius: 30px;
     width: 50vw;
+    /* min-width: 4; */
     margin: 0 25vw;
     position: relative;
     transform: translateX(400%);
@@ -99,12 +100,12 @@ button.blur-me{
 }
 .left-mo{
     right: 20%;
-    top: 55%;
+    top: 53%;
 
 }
 .right-mo{
     left: 20%;
-    top: 55%;
+    top: 53%;
 }
 .mover{
     position: absolute;

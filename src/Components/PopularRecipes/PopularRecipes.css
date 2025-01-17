@@ -82,10 +82,11 @@ div.pop-cont{
     align-items: center;
     justify-content: space-evenly;
     gap:3vw;
+    flex-wrap: wrap;
 }
 
 .each-pop {
-    width: 25vw;
+    width: 390px;
     background-color: white;
     padding: 10px;
     display: flex;
@@ -97,6 +98,7 @@ div.pop-cont{
     padding-bottom: 15px;
     border-radius: 10px;
     overflow: hidden; 
+    min-width: 340px;
 }
 
 div.img-cont {

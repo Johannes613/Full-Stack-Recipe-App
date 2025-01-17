@@ -46,7 +46,7 @@ const Navbar = ({showLogin, setShowLogin}) => {
             <nav className="navbar">
             
                 <div className="nav-head">
-                    <div className="social-icons">
+                    <div id="social-icons">
                         <FaFacebook />
                         <FaInstagram />
                         <FaTwitter />

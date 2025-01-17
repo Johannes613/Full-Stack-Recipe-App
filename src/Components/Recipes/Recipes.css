@@ -83,14 +83,41 @@ img#rec-img{
     font-size: 17px;
     font-weight: 500;
 }
+@media(max-width:1124px){
+    div.nav-head{
+        gap: 15vw;
+    }
+    div.pop-cont{
+        flex-wrap: wrap;
+    }
+    .each-pop{
+        margin-bottom: 30px;
+    }
+    .recipes, .favourites{
+        justify-content: center;
+    }
 
+
+}
 @media(max-width:1024px){
     .recipe{
         width: 15vw;
         min-width: 220px;
     }
+    
+    div.nav-head{
+        gap: 8vw;
+        justify-content: space-between;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        padding: 18px 5px;
+
+    }
     nav ul li{
         padding-left: 2vw;
+       
     }
     form input{
         margin-left: 15px;
@@ -111,12 +138,41 @@ img#rec-img{
         padding: 10px 0;
     }
 }
+
 @media(max-width:768px){
+    #left-mo{
+        right: 2%;
+        top: 52%;
+    
+    }
+    #right-mo{
+        left: 2%;
+        top: 52%;
+    }
+    div.show-image p{
+        font-size: 12px;
+    }
+    div.show-image h1{
+        font-size: 23px;
+    }
     .recipe{
-        width: 75vw;
+        width: 60vw;
         min-width: 280px;
         gap: 3px;
     }
+    img#rec-img{
+        width: 56vw;
+    }
+    .pop-head{
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: center;
+    }
+    #search-r{
+        width: 57vw;
+        padding: 10px 15px;
+    }
+   
     .home, .favourites{
         flex-direction: column;
     }
@@ -142,14 +198,19 @@ img#rec-img{
     nav ul{
         flex-direction: column;
         position: absolute;
-        top: 57px;
-        background-color: black;
+        top: 100px;
+        background-color: rgb(252, 83, 83);
         right: 0;
         height: 100vh;
         justify-content: start;
         gap: 40px;
         width: 0;
         transition: all 0.4s ease;
+        overflow: hidden;
+        padding: 0;
+        z-index: 23423;
+        border-radius: 0;
+        margin: 0;
         
     }
     .show-me{
@@ -161,7 +222,82 @@ img#rec-img{
     .ham-menu{
         display: block;
         position: absolute;
+        top: 41px;
         right: 15px;
-        font-size: 20px;
+        font-size: 25px;
+        margin-left: 20px;
     }
+    div.nav-head{
+        gap: 0;
+        padding: 5px 1vw;
+        justify-content: space-evenly;
+    }
+    .login{
+        padding: 6px 15px;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .signup{
+        width: 20px;
+    }
+    nav{
+        height: 100px;
+        padding: 5px 40px 5px 20px;
+    }
+    div#social-icons{
+        display: none;
+    }
+   
+    div.footer-links{
+        flex-direction: column;
+    }
+    img.logo-tasty{
+        width: 190px;
+        margin: 0;
+        padding: 0;
+        /* margin-right: 10vw; */
+    }
+    div.intro-head{
+        height: 43vh;
+    }
+    button#see-all{
+        padding: 8px;
+        width: 110px;
+        font-size: 12px;
+    }
+    #searc-sea{
+        padding: 8px;
+        width: 110px;
+        font-size: 12px;
+    }
+    div.intro-head{
+        min-height: 320px;
+    }
+    #left-mo{
+        right: 15%;
+        top: 52%;
+    
+    }
+    #right-mo{
+        left: 15%;
+        top: 52%;
+    }
+
+}
+@media(max-width:430px){
+    img.logo-tasty{
+        width: 150px;
+    }
+    .ham-menu{
+        top: 34px;
+    }
+    div.intro-head{
+        height: 49vh;
+    }
+    button#see-all{
+        padding: 5px;
+        width: 110px;
+        font-size: 12px;
+    }
+
 }

@@ -15,8 +15,9 @@ div.cat-container{
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    justify-content: space-between;
+    justify-content:center;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 
@@ -57,6 +58,9 @@ div.each-cat{
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    min-width: 225px;
+    margin-bottom: 20px;
+    
 
 }
 div.favourites{

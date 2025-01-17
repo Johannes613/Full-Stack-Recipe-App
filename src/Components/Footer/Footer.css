@@ -1,17 +1,22 @@
 div.footer{
     background-color: rgb(252, 83, 83);
     color: white;
-    min-height: 50vh;
+    min-height: 45vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
+    gap: 10px;
+    overflow: hidden;
     padding: 15px;
+
 }
 div.footer-links{
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 div.footer-links li{
     list-style: none;
@@ -21,11 +26,12 @@ div.footer-links li{
 div.footer-links li .links{
     font-size: 17px;
 }
+
 div.footer-lin{
     display: flex;
     gap: 20px;
-
 }
+
 .each-link{
     font-size: 25px;
     cursor: pointer;
